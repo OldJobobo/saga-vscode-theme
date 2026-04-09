@@ -2,7 +2,7 @@
   "name": "saga-dark",
   "displayName": "SAGA Dark",
   "description": "A dark VS Code theme built from the MIT-licensed SAGA palette.",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "publisher": "oldjobobo",
   "icon": "icon.png",
   "license": "MIT",

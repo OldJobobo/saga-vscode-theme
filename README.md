@@ -2,6 +2,8 @@
 
 SAGA Dark is a pastel dark theme for Visual Studio Code with an almost-black UI and soft syntax colors.
 
+![SAGA Dark preview](./preview.png)
+
 ## Palette
 
 - `#05080a` Liquorice

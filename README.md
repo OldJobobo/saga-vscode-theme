@@ -57,10 +57,10 @@ SAGA Dark is tuned to stay coherent in actual work:
 
 ## Install
 
-Install from the Extensions view:
+Install from the VS Code Marketplace or from the command line:
 
-```text
-ext install oldjobobo.saga-dark
+```bash
+code --install-extension oldjobobo.saga-dark
 ```
 
 Or search for `SAGA Dark` in VS Code.

@@ -1,0 +1,77 @@
+{
+  "comment": {
+    "foreground": "@palette.pastelMagenta/aa",
+    "italic": true
+  },
+  "variable": "@palette.mistyRose",
+  "variable.defaultLibrary": "@palette.blond",
+  "parameter": {
+    "foreground": "@palette.lavenderPink",
+    "italic": true
+  },
+  "property": "@palette.celeste",
+  "property.readonly": "@palette.menthol",
+  "variable.readonly": "@palette.snow",
+  "function": {
+    "foreground": "@palette.celeste",
+    "italic": true
+  },
+  "function.defaultLibrary": "@palette.blond",
+  "method": {
+    "foreground": "@palette.paleLavender",
+    "italic": true
+  },
+  "method.async": {
+    "foreground": "@palette.celeste",
+    "fontStyle": "italic"
+  },
+  "class": "@palette.celeste",
+  "interface": "@palette.celeste",
+  "struct": "@palette.celeste",
+  "enum": "@palette.celeste",
+  "enumMember": "@palette.cottonCandy",
+  "type": "@palette.celeste",
+  "type.defaultLibrary": "@palette.blond",
+  "typeParameter": "@palette.magnolia",
+  "namespace": "@palette.pinkLace",
+  "decorator": "@palette.lavenderPink",
+  "event": "@palette.pinkLace",
+  "macro": "@palette.paleLavender",
+  "label": "@palette.snow",
+  "keyword": "@palette.mauve",
+  "modifier": "@palette.mauve",
+  "operator": "@palette.cottonCandy",
+  "string": "@palette.menthol",
+  "number": "@palette.pastelPeach",
+  "regexp": "@palette.blond",
+  "class:python": "@palette.pinkLace",
+  "class.builtin:python": "@palette.blond",
+  "variable.typeHint:python": "@palette.blond",
+  "function.decorator:python": {
+    "foreground": "@palette.celeste",
+    "fontStyle": "italic"
+  },
+  "variable.readonly:javascript": "@palette.mistyRose",
+  "variable.readonly:typescript": "@palette.mistyRose",
+  "property.readonly:javascript": "@palette.mistyRose",
+  "property.readonly:typescript": "@palette.mistyRose",
+  "variable.readonly:javascriptreact": "@palette.mistyRose",
+  "variable.readonly:typescriptreact": "@palette.mistyRose",
+  "property.readonly:javascriptreact": "@palette.mistyRose",
+  "property.readonly:typescriptreact": "@palette.mistyRose",
+  "type.defaultLibrary:go": "@palette.blond",
+  "variable.readonly.defaultLibrary:go": "@palette.blond",
+  "tomlArrayKey": "@palette.celeste",
+  "tomlTableKey": "@palette.pinkLace",
+  "builtinAttribute.attribute.library:rust": "@palette.celeste",
+  "generic.attribute:rust": "@palette.mistyRose",
+  "*.declaration": {
+    "italic": true
+  },
+  "*.deprecated": {
+    "foreground": "@palette.pastelMagenta/aa",
+    "strikethrough": true
+  },
+  "*.readonly": "@palette.snow",
+  "*.defaultLibrary": "@palette.snow"
+}

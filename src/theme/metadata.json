@@ -1,0 +1,6 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "SAGA Dark",
+  "type": "dark",
+  "semanticHighlighting": true
+}

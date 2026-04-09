@@ -23,11 +23,15 @@ vsce login oldjobobo
 3. Verify package contents.
 4. Publish version bump (`patch`, `minor`, or `major`).
 
+Theme source now lives under `src/theme/`, and `themes/saga-palette-color-theme.json` is generated output.
+
 ### 1) Package
 
 ```bash
 npm run package
 ```
+
+This runs `npm run build` first so the generated theme JSON is up to date before packaging.
 
 ### 2) Verify VSIX Contents
 
@@ -54,7 +58,7 @@ vsce publish major --no-yarn --no-dependencies
 Or publish exact version:
 
 ```bash
-vsce publish 0.1.4 --no-yarn --no-dependencies
+vsce publish 0.1.9 --no-yarn --no-dependencies
 ```
 
 ## Post-Publish Checks
@@ -84,6 +88,12 @@ For one command that versions and builds:
 
 ```bash
 npm run release:patch   # or release:minor / release:major
+```
+
+For a build without packaging:
+
+```bash
+npm run build
 ```
 
 For the same smart publish wrapper as your other themes:

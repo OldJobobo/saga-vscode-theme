@@ -26,6 +26,9 @@ if [[ -z "$CURRENT_VERSION" || -z "$PUBLISHER" || -z "$NAME" ]]; then
   exit 1
 fi
 
+echo "Building theme output..."
+npm run build >/dev/null
+
 echo "Checking Marketplace version for ${EXT_ID}..."
 
 SHOW_JSON="$(

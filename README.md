@@ -69,6 +69,23 @@ Or search for `SAGA Dark` in VS Code.
 
 Open the Command Palette, run `Preferences: Color Theme`, and select `SAGA Dark`.
 
+## Development
+
+The checked-in theme file at `themes/saga-palette-color-theme.json` is generated output.
+
+Source files live under `src/theme/`:
+- `palette.json`
+- `metadata.json`
+- `colors.json`
+- `semantic-token-colors.json`
+- `token-colors.json`
+
+Rebuild the generated theme with:
+
+```bash
+npm run build
+```
+
 ## Notes
 
 - The palette stays faithful to the original SAGA color system, but the token and UI mapping is tuned for daily use in real projects.

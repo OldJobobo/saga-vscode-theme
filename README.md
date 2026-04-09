@@ -38,4 +38,4 @@ Open the Command Palette, run `Preferences: Color Theme`, and select `SAGA Dark`
 
 ## License
 
-Released under the MIT License.
+Released under the [MIT License](LICENSE).

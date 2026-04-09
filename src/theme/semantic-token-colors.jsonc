@@ -1,4 +1,5 @@
 {
+  // Semantic tokens override generic TextMate scopes when the editor can provide symbol meaning.
   "comment": {
     "foreground": "@palette.pastelMagenta/aa",
     "italic": true
@@ -44,6 +45,7 @@
   "string": "@palette.menthol",
   "number": "@palette.pastelPeach",
   "regexp": "@palette.blond",
+  // Language-specific semantic selectors live here when the generic token kind is not precise enough.
   "class:python": "@palette.pinkLace",
   "class.builtin:python": "@palette.blond",
   "variable.typeHint:python": "@palette.blond",
@@ -65,6 +67,7 @@
   "tomlTableKey": "@palette.pinkLace",
   "builtinAttribute.attribute.library:rust": "@palette.celeste",
   "generic.attribute:rust": "@palette.mistyRose",
+  // Keep the broad wildcard modifiers at the bottom so they are easy to spot and reason about.
   "*.declaration": {
     "italic": true
   },

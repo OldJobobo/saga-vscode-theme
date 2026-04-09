@@ -1,4 +1,5 @@
 {
+  // The generated output stays in themes/saga-palette-color-theme.json.
   "$schema": "vscode://schemas/color-theme",
   "name": "SAGA Dark",
   "type": "dark",

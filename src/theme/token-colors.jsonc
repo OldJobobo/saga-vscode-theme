@@ -1,4 +1,5 @@
 [
+  // TextMate rules cover the long tail of syntax that semantic tokens do not.
   {
     "name": "Comment",
     "scope": [
@@ -23,6 +24,7 @@
     }
   },
   {
+    // Start with broad identifier families; this is the first place to tweak general syntax balance.
     "name": "Variables, Parameters",
     "scope": [
       "variable",
@@ -151,6 +153,7 @@
     }
   },
   {
+    // Punctuation stays quieter than identifiers so the pastel accents land on meaningful symbols.
     "name": "Operator, Misc",
     "scope": [
       "constant.other.color",
@@ -429,6 +432,7 @@
     }
   },
   {
+    // Rust gets dedicated TextMate rules because semantic token support still leaves noticeable gaps.
     "name": "Rust Methods",
     "scope": [
       "entity.name.function.rust",
@@ -775,6 +779,7 @@
     }
   },
   {
+    // Data-language keys live here because many config grammars are still effectively TextMate-only.
     "name": "JSON Key - Level 0",
     "scope": [
       "source.json meta.structure.dictionary.json support.type.property-name.json"
@@ -893,6 +898,7 @@
     }
   },
   {
+    // Prefer semantic-token edits for Python first; keep these for grammar-specific cleanup.
     "name": "Python Self and Magic",
     "scope": [
       "variable.parameter.function.language.special.self.python",
@@ -1044,6 +1050,7 @@
     }
   },
   {
+    // Markdown relies heavily on TextMate scopes, so these rules do a lot of real work.
     "name": "Markdown - Plain",
     "scope": [
       "text.html.markdown",

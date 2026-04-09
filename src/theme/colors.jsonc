@@ -1,4 +1,5 @@
 {
+  // Workbench and global UI.
   "foreground": "@palette.mistyRose",
   "disabledForeground": "@palette.cottonCandy/88",
   "widget.shadow": "@palette.liquorice",
@@ -48,6 +49,7 @@
   "badge.background": "@palette.pastelPeach",
   "badge.foreground": "@palette.liquorice",
   "progressBar.background": "@palette.celeste",
+  // Explorer, quick pick, and other list-driven surfaces.
   "list.activeSelectionBackground": "@palette.asphalt",
   "list.activeSelectionForeground": "@palette.snow",
   "list.dropBackground": "@palette.mauve/33",
@@ -75,6 +77,7 @@
   "activityBarBadge.background": "@palette.celeste",
   "activityBarBadge.foreground": "@palette.liquorice",
   "activityBar.activeBackground": "#00000000",
+  // Keep the side chrome almost black so code remains the focal point.
   "sideBar.background": "@palette.liquorice",
   "sideBar.border": "@palette.asphalt",
   "sideBar.foreground": "@palette.mistyRose",
@@ -83,6 +86,7 @@
   "sideBarSectionHeader.background": "#00000000",
   "sideBarSectionHeader.border": "#00000000",
   "sideBarSectionHeader.foreground": "@palette.mistyRose",
+  // Keep right-edge indicators softer than gutter decorations.
   "minimap.findMatchHighlight": "@palette.pastelPeach/55",
   "minimap.selectionHighlight": "@palette.asphalt/55",
   "minimap.errorHighlight": "@palette.pastelMagenta",
@@ -92,6 +96,7 @@
   "minimapGutter.addedBackground": "@palette.menthol/bf",
   "minimapGutter.modifiedBackground": "@palette.celeste/bf",
   "minimapGutter.deletedBackground": "@palette.pastelMagenta/bf",
+  // Core editor and tab surfaces.
   "editorGroup.background": "@palette.liquorice",
   "editorGroup.border": "@palette.asphalt",
   "editorGroup.dropBackground": "@palette.liquorice",
@@ -156,6 +161,7 @@
   "editorBracketHighlight.foreground5": "@palette.celeste",
   "editorBracketHighlight.foreground6": "@palette.mauve",
   "editorBracketHighlight.unexpectedBracket.foreground": "@palette.pastelMagenta/aa",
+  // Overview ruler should support, not duplicate, gutter markers.
   "editorOverviewRuler.findMatchForeground": "@palette.blond/6f",
   "editorOverviewRuler.rangeHighlightForeground": "#ffc2df6655",
   "editorOverviewRuler.selectionHighlightForeground": "@palette.asphalt/55",
@@ -181,6 +187,7 @@
   "editorGutter.deletedBackground": "@palette.pastelMagenta",
   "editorGutter.commentRangeForeground": "@palette.cottonCandy/88",
   "editorGutter.foldingControlForeground": "@palette.mistyRose",
+  // Diff, peek, and merge surfaces should stay legible without screaming.
   "diffEditor.insertedTextBackground": "@palette.menthol/22",
   "diffEditor.removedTextBackground": "@palette.pastelMagenta/22",
   "diffEditor.diagonalFill": "@palette.asphalt",
@@ -221,6 +228,7 @@
   "editorOverviewRuler.currentContentForeground": "@palette.celeste/8f",
   "editorOverviewRuler.incomingContentForeground": "@palette.mauve/8f",
   "editorOverviewRuler.commonContentForeground": "@palette.pastelMagenta/8f",
+  // Panels and status bars.
   "panel.background": "@palette.liquorice",
   "panel.border": "@palette.asphalt",
   "panel.dropBackground": "@palette.liquorice",
@@ -280,6 +288,7 @@
   "notification.warningForeground": "@palette.mistyRose",
   "notification.errorBackground": "@palette.pastelMagenta/22",
   "notification.errorForeground": "@palette.mistyRose",
+  // Marketplace and extension action buttons need explicit contrast rules.
   "banner.background": "@palette.asphalt",
   "banner.foreground": "@palette.mistyRose",
   "banner.iconForeground": "@palette.celeste",
@@ -332,6 +341,7 @@
   "debugTokenExpression.boolean": "@palette.snow",
   "debugTokenExpression.number": "@palette.snow",
   "debugTokenExpression.error": "@palette.pastelMagenta",
+  // Test and notebook surfaces pick up a lot of fallback colors if omitted.
   "testing.iconFailed": "@palette.pastelMagenta",
   "testing.iconErrored": "@palette.pastelMagenta/aa",
   "testing.iconPassed": "@palette.menthol",
@@ -459,6 +469,7 @@
   "charts.green": "@palette.mauve",
   "charts.purple": "@palette.mauve",
   "ports.iconRunningProcessForeground": "@palette.snow",
+  // Older/fallback keys still matter because some VS Code surfaces and extensions use them directly.
   "focusBorder": "@palette.celeste",
   "dropdown.border": "@palette.vampireBlack",
   "input.border": "@palette.vampireBlack",

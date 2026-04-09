@@ -74,11 +74,13 @@ Open the Command Palette, run `Preferences: Color Theme`, and select `SAGA Dark`
 The checked-in theme file at `themes/saga-palette-color-theme.json` is generated output.
 
 Source files live under `src/theme/`:
-- `palette.json`
-- `metadata.json`
-- `colors.json`
-- `semantic-token-colors.json`
-- `token-colors.json`
+- `palette.jsonc`
+- `metadata.jsonc`
+- `colors.jsonc`
+- `semantic-token-colors.jsonc`
+- `token-colors.jsonc`
+
+These source files support comments. The generated file in `themes/` remains strict JSON for VS Code.
 
 Rebuild the generated theme with:
 

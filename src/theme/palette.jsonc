@@ -1,8 +1,11 @@
 {
+  // Core base surfaces.
   "liquorice": "#05080a",
   "vampireBlack": "#0A0D0F",
   "charcoal": "#0f1214",
   "asphalt": "#141719",
+  // Main readable foregrounds and accents.
+  // These token names are the shared vocabulary for every other source file.
   "mistyRose": "#ffe1e1",
   "cottonCandy": "#ffc2df",
   "lavenderPink": "#ffaecb",
